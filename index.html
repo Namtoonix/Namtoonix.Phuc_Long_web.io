@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <title>Phúc Long Coffe & Tea</title>
+  <link rel="shortcut icon" type="image/png" href="./assets/image/navbar/logo.png" />
+</head>
+
+<body class="clear">
+  <!-- nav -->
+  <div id="nav-vn" class="nav fixed-top is-active">
+    <div class="nav-header row g-4 text-center p-2">
+      <div class="nav-toggle col-sm-3"><span class="material-icons-outlined more">menu</span><span class="material-icons-outlined close">
+        close
+        </span></div>
+      <div class="nav-image col-md-3 position-relative">
+        <a href="tel: 18006779">
+          <img src="./assets/image/navbar/delivery.png" class="position-absolute" alt="">
+        </a>
+      </div>
+      <div class="nav-slider col-sm-3 col-md-6">
+        <a href="#">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/image/navbar/logo.png" class="d-block nav-icon">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/image/navbar/logo_1.png" class="d-block nav-icon">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/image/navbar/logo_2.png" class="d-block nav-icon">
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3 nav-header-right">
+        <button class="login-btn font-16 font-w border-0">Đăng nhập</button>
+        <div class="language-select font-16">
+          <button class="lang-vn active bg-white border-0">VN&nbsp</button>
+          |
+          <button class="lang-en bg-white border-0">&nbspEN</button>
+        </div>
+        <div class="cart-btn">
+          <button type="button" class="btn btn-vn position-relative color-green font-12">
+            <p class="m-0">Giỏ hàng</p>
+            <div class="position-relative">
+              <span class="material-icons-outlined">shopping_cart
+              </span>
+              <span class="quatity-total position-absolute translate-middle badge rounded-pill bg-green">
+                0
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </div>
+          </button>
+          <div class="box-cart cart-vn">
+            <div class="d-flex justify-content-between align-center pb-5 cart-header">
+              <p class="m-0">Giỏ hàng của bạn</p>
+              <button class="">Xem chi tiết</button>
+            </div>
+            <div class="list-buy">
+
+            </div>
+            <div class="total-coin pb-4 pt-4">
+              Tổng tiền
+              <span class="total-pay">0 đ</span>
+            </div>
+            <button class="pay-btn">THANH TOÁN ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-body position-relative">
+      <a href="" class="nav-link link-home nav-active border-bottom">TRANG CHỦ</a>
+      <a class="nav-link link-cafe to-cafe-page border-bottom">CÀ PHÊ</a>
+      <a class="nav-link link-tea to-tea-page border-bottom">TRÀ</a>
+      <a href="" class="nav-link border-bottom">THỨC UỐNG</a>
+      
+      <a class="nav-link product border-bottom">SẢN PHẨM <span class="material-icons-outlined arrow-down">expand_more</span><span class="material-icons-outlined arrow-up">
+        expand_less</span></a>
+        <div class="product-box row g-3 p-4">
+          <div class="col-lg-6 tea-column">
+            <h4 class="more-title col-12 mb-4 to-tea-page">TRÀ</h4>
+            <div class="row g-3">
+              <div class="col-lg-4 col-sm-12">
+                <h6 class="mb-3">TRÀ HỘP</h6>
+                <ul>
+                  <li>Trà túi lọc</li>
+                  <li>Trà túi tam giác</li>
+                  <li>Trà hộp giấy</li>
+                  <li>Lễ hộp</li>
+                  <li>Trà hộp xám</li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <h6 class="mb-3">TRÀ GÓI</h6>
+                <ul>
+                  <li>Trà Thái Nguyên</li>
+                  <li>Trà gói cao cấp</li>
+                  <li>Trà vạn lý hương</li>
+                  <li>Trà đen</li>
+                  <li>Trà sen</li>
+                  <li>Trà xanh</li>
+                  <li>Trà lài</li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <h6 class="mb-3">TRÀ LON</h6>
+                <ul>
+                  <li>Trà lon giấy</li>
+                  <li>Trà lon giấy cao cấp</li>
+                  <li>Trà lon thiếc</li>
+                  <li>Trà Ô Long Thượng Hạng</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-12 cafe-column">
+            <h4 class="more-title col-12 mb-4 to-cafe-page">CÀ PHÊ</h4>
+            <div class="">
+              <div class="col-12">
+                <ul>
+                  <li>Cà phê Set</li>
+                  <li>Cà phê phin nhôm</li>
+                  <li>Cà phê mùi</li>
+                  <li>Cà phê hạt</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 mooncake-column">
+            <h4 class="more-title col-12 mb-4">BÁNH TRUNG THU</h4>
+            <div class="">
+              <div class="col-12">
+                <ul>
+                  <li>Bánh Trung Thu lẻ</li>
+                  <li>Bánh Trung Thu hộp</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      <a href="" class="nav-link border-bottom">KHUYẾN MÃI</a>
+      <a href="" class="nav-link border-bottom">VỀ CHÚNG TÔI</a>
+      <a href="" class="nav-link border-bottom">THẺ</a>
+      <a class="nav-link border-bottom login-btn">ĐĂNG NHẬP</a>
+      <a href="" class="nav-link border-bottom search">
+        <span class="material-icons-outlined">search</span>
+      </a>
+    </div>
+  </div>
+  <div id="nav-en" class="nav fixed-top">
+    <div class="nav-header row g-3 text-center p-2">
+      <div class="nav-image col-md-3 position-relative">
+        <a href="tel: 18006779">
+          <img src="./assets/image/navbar/delivery.png" class="position-absolute" alt="">
+        </a>
+      </div>
+      <div class="nav-slider col-md-6">
+        <a href="#">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/image/navbar/logo.png" class="d-block nav-icon">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/image/navbar/logo_1.png" class="d-block nav-icon">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/image/navbar/logo_2.png" class="d-block nav-icon">
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3 d-inline-flex">
+        <button class="login-btn font-16 font-w border-0">Login</button>
+        <div class="language-select font-16">
+          <button class="lang-vn active bg-white border-0">VN&nbsp</button>
+          |
+          <button class="lang-en bg-white border-0">&nbspEN</button>
+        </div>
+        <div class="cart-btn">
+          <button type="button" class="btn btn-en position-relative color-green font-12">
+            <p class="m-0">Cart</p>
+            <div class="position-relative">
+              <span class="material-icons-outlined">shopping_cart
+              </span>
+              <span class="position-absolute translate-middle badge rounded-pill bg-green">
+                0
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </div>
+          </button>
+          <div class="box-cart cart-en">
+            <div class="d-flex justify-content-between align-center pb-5">
+              <p class="m-0 font-16">Your cart</p>
+              <button class="font-14">Cart details</button>
+            </div>
+            <div class="total-coin pb-4">
+              Total
+              <span>0 đ</span>
+            </div>
+            <button>CHECK OUT ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-body d-flex">
+      <a href="" class="nav-link active">HOME</a>
+      <a href="" class="nav-link">DRINKS</a>
+      <a href="" class="nav-link">PRODUCTS</a>
+      <a href="" class="nav-link">PROMOTIONS</a>
+      <a href="" class="nav-link">ABOUT US</a>
+      <a href="" class="nav-link">MEMBER CARD</a>
+      <a href="" class="nav-link">
+        <span class="material-icons-outlined">search</span>
+      </a>
+    </div>
+  </div>
+  <!-- common  -->
+  <!-- form login -->
+  <div id="form-login">
+    <div class="bg-white form-container">
+      <div class="form-title font-24">ĐĂNG NHẬP VÀO THÀNH VIÊN PHÚC LONG</div>
+      <div class="form-body">
+        <form class="w-100">
+          <div class="col-md-12 pb-3">
+            <label for="inputEmail4" class="form-label">Email/ Số thẻ <span>(*)</span></label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-12 pb-4">
+            <label for="inputPassword4" class="form-label">Mật khẩu <span>(*)</span></label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12 pb-4">
+            <p class="form-forget">
+              Quên mật khẩu? bấm <span>vào đây</span>
+            </p>
+          </div>
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-primary">ĐĂNG NHẬP</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- slider -->
+  <div id="slider">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+          class="active slider-point rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          class="slider-point rounded-circle" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          class="slider-point rounded-circle" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://phuclong.com.vn/uploads/banner/f5e66c323d406d-resize_1920576copy.png" class="d-block w-100"
+            alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://phuclong.com.vn/uploads/banner/1382de28347667-ec3chai2_1920x576.jpg" class="d-block w-100"
+            alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://phuclong.com.vn/uploads/banner/59d303d3b836b9-ecpremium3_1920x576.jpg" class="d-block w-100"
+            alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- none when form-login hidden -->
+  <div class="container-none-vn is-active">
+    <div id="content">
+      <div class="content-item item-1 row">
+        <img class="col-lg-6" src="./assets/image/content/content_1.jpg" alt="">
+        <div class="col-lg-6 content-body">
+          <h3 class="body-title">TỪ NHỮNG MẦM TRÀ, CHÚNG TÔI TẠO RA NIỀM ĐAM MÊ</h3>
+          <p class="body-text">
+            Trải qua hơn 50 năm chắt chiu tinh hoa từ những búp trà xanh và hạt cà phê thượng hạng cùng mong
+            muốn mang lại cho khách hàng những trải nghiệm giá trị nhất khi thưởng thức, Phúc Long liên tục
+            là
+            thương hiệu tiên phong với nhiều ý tưởng sáng tạo đi đầu trong ngành trà và cà phê. <br><br>
+            Chúng tôi tin rằng từng sản phẩm trà và cà phê sẽ càng thêm hảo hạng khi được tạo ra từ sự
+            phấn
+            đấu không ngừng cùng niềm đam mê. Và chính kết nối dựa trên niềm tin, sự trung thực và tin yêu sẽ góp
+            phần
+            mang đến những nét đẹp trong văn hóa thưởng trà và cà phê ngày càng bay cao, vươn xa.</p>
+          <button class="body-btn">XEM THÊM</button>
+        </div>
+      </div>
+      <div class="content-item item-2 row">
+        <div class="col-lg-6 content-body">
+          <h3 class="body-title">ĐỘI NGŨ NHÂN VIÊN TRÀN ĐẦY NHIỆT HUYẾT</h3>
+          <p class="body-text">Trong suốt quá trình hoạt động và phát triển, đội ngũ quản lý và nhân viên của
+            Phúc
+            Long Coffee & Tea, qua bao thế hệ, đã cùng nhau xây dựng, nuôi dưỡng niềm đam mê dành cho trà và cà
+            phê
+            với mong muốn được thử thách bản thân trong ngành dịch vụ năng động và sáng tạo.</p>
+          <button class="body-btn">GIA NHẬP ĐỘI NGŨ PHÚC LONG</button>
+        </div>
+        <img class="col-lg-6" src="./assets/image/content/content_2.jpg" alt="">
+      </div>
+    </div>
+    <div id="address">
+      <div class="row address-form">
+        <div class="col-lg-6 col-sm-12">
+          <h2 class="address-title font-28">HỆ THỐNG CỬA HÀNG</h2>
+          <div class="select-item row">
+            <select class="form-select select-local" aria-label="Default select example">
+              <option selected>Tỉnh/ Thành phố</option>
+              <option value="1">Thành phố Hồ Chí Minh</option>
+              <option value="2">Thành phố Cần Thơ</option>
+            </select>
+            <select class="form-select select-district" aria-label="Default select example">
+              <option selected>Quận</option>
+              <option value="1">Quận 1</option>
+              <option value="2">Quận 2</option>
+              <option value="3">Quận 3</option>
+              <option value="4">Quận Ninh Kiều</option>
+            </select>
+          </div>
+          <p class="address-text">Địa chỉ cửa hàng</p>
+          <div class="shop-list"></div>
+        </div>
+        <div class="col-lg-6 kobietlagi">
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="row p-5 container">
+        <div class="col-lg-6 font-12">
+          <p><span>Trụ sở chính: </span>Công ty CP Phúc Long Heritage - ĐKKD: 0316 871719
+            do sở KHĐT TPHCM cấp lần đầu ngày 21/05/2021</p>
+          <p><span>Nhà máy: </span>D_8D_CN Đường XE 1, Khu Công Nghiệp Mỹ Phước III, phường Mỹ Phước, thị xã Bến Cát,
+            tỉnh
+            Bình Dương, Việt Nam</p>
+          <p><span>Địa chỉ: </span>42/24 - 42/26 Đường 643 Tạ Quang Bửu, phường 4, quận 8, Hồ Chí Minh</p>
+          <p><span>Điện thoại: </span>028 6263 0377 - 6263 0378 </p>
+          <p><span>Fax: </span>(028) 6263 0379</p>
+          <p><span>Email: </span>
+            Sales@phuclong.com.vn <br>
+            Info@phuclong.com.vn
+          </p>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-between footer-right">
+          <div class="input-form">
+            <div class="input-title">Đăng ký nhận tin khuyến mãi</div>
+            <div>
+              <form class="row g-2">
+                <div class="col-auto input-group">
+                  <input type="email" class="form-control" id="inputPassword2" placeholder="Nhập địa chỉ email">
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-primary mb-3">Gửi</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="footer-info">
+            <div class="language-select font-16">
+              <button href="" class="bg-white border-0 active">VN&nbsp</button>
+              |
+              <button href="" class="bg-white border-0">&nbspEN</button>
+            </div>
+            <img src="./assets/image/footer/dathongbao.png" alt="">
+            <div class="footer-icon">
+              <a href="" class="ti-facebook"></a>
+              <a href="" class="ti-twitter-alt"></a>
+              <a href="" class="ti-instagram"></a>
+              <a href="" class="ti-youtube"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-none-en">
+    <div id="content">
+      <div class="content-item item-1 row">
+        <img class="col-lg-6" src="./assets/image/content/content_1.jpg" alt="">
+        <div class="col-lg-6 content-body">
+          <h3 class="body-title">FROM THE TEA SPROUTS, WE CREATE PASSION</h3>
+          <p class="body-text">
+            After 50 years of experience growing and developing the highest quality of tea leaves and coffee beans
+            coupled with our devotion to providing memorable customer experience, Phuc Long has earned the reputation
+            as a pioneer brand having many creative ideas for the coffee and tea industry. <br><br>
+            We constantly strive to create the highest quality of tea and coffee products through ceaseless effort and
+            passion. We are truly connected to and contribute deeply to the Vietnam's longstanding culture of drinking
+            coffee and tea.</p>
+          <button class="body-btn">FOLLOW</button>
+        </div>
+      </div>
+      <div class="content-item item-2 row">
+        <div class="col-lg-6 content-body">
+          <h3 class="body-title">THE STAFF TEAM IS FULL OF ENTHUSIASM</h3>
+          <p class="body-text">During the process of operation and development, Phuc Long Coffee & Tea's management
+            team and staff, for generations, have built and nurtured the passion for tea and coffee with the desire to
+            challenge themselves in the dynamic and creative service F&B.</p>
+          <button class="body-btn">JOIN WITH PHUC LONG TEAM</button>
+        </div>
+        <img class="col-lg-6" src="./assets/image/content/content_2.jpg" alt="">
+      </div>
+    </div>
+    <div id="address">
+      <div class="row address-form">
+        <div class="col-lg-6">
+          <h2 class="address-title font-28">STORE SYSTEM</h2>
+          <div class="select-item row">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>City/ Province</option>
+              <option value="1">Ho Chi Minh city</option>
+              <option value="2">Can Tho city</option>
+            </select>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>District</option>
+              <option value="1">District 1</option>
+              <option value="2">District 2</option>
+              <option value="3">District 3</option>
+              <option value="4">Ninh Kieu District</option>
+            </select>
+          </div>
+          <p class="address-text">Store address</p>
+          <div class="shop-list"></div>
+        </div>
+        <div class="col-lg-6">
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="row p-5">
+        <div class="col-lg-6 font-12">
+          <p><span>Head office: </span>Phuc Long Trading Production Co., Ltd. - Business registration: 0302 108 546
+            first issued by HCMC Department of Planning and Investment on September 12,
+            2000</p>
+          <p><span>Nhà máy: </span>D_8D_CN Đường XE 1, Khu Công Nghiệp Mỹ Phước III, phường Mỹ Phước, thị xã Bến Cát,
+            tỉnh
+            Bình Dương, Việt Nam</p>
+          <p><span>Address: </span>42/24 - 42/26 Street 643 Ta Quang Buu, Ward 4, District 8, Ho Chi Minh</p>
+          <p><span>Phone: </span>028 6263 0377 - 6263 0378 </p>
+          <p><span>Fax: </span>(028) 6263 0379</p>
+          <p><span>Email: </span>
+            Sales@phuclong.com.vn <br>
+            Info@phuclong.com.vn
+          </p>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-between">
+          <div class="input-form">
+            <div class="input-title">Get promotion</div>
+            <div>
+              <form class="row g-2">
+                <div class="col-auto">
+                  <input type="email" class="form-control" id="inputPassword2" placeholder="Enter your email">
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-primary mb-3">FOLLOW</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="footer-info">
+            <div class="language-select font-16">
+              <button href="" class="bg-white border-0">VN&nbsp</button>
+              |
+              <button href="" class="active bg-white border-0">&nbspEN</button>
+            </div>
+            <img src="./assets/image/footer/dathongbao.png" alt="">
+            <div class="footer-icon">
+              <a href="" class="ti-facebook"></a>
+              <a href="" class="ti-twitter-alt"></a>
+              <a href="" class="ti-instagram"></a>
+              <a href="" class="ti-youtube"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- coffe page -->
+  <div class="cafe-page">
+    <img src="https://phuclong.com.vn/uploads/category/e1c28e3a68aee6-caphephuclong.jpg" alt="">
+    <div class="nav-way">
+      <a href="http://127.0.0.1:5500/">Trang chủ</a>
+      / <a href="">Sản phẩm</a>
+      / <a href="#">Cà phê</a>
+    </div>
+    <div class="nav-filter row g-2">
+      <div class="with-price filter-item col-lg-6 row font-sw">
+        Theo giá
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Không lựa chọn</option>
+          <option value="1">Không lựa chọn</option>
+          <option value="2">Từ thấp đến cao</option>
+          <option value="3">Từ cao đến thấp</option>
+        </select>
+      </div>
+      <div class="with-search filter-item col-lg-6 row font-sw">
+        Tìm kiếm
+        <div class="input-group flex-nowrap">
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            aria-describedby="addon-wrapping">
+          <span class="input-group-text" id="addon-wrapping"><span class="material-icons-outlined">
+              search</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="content-cafe text-center">
+      <h3 class="content-title font-28">CÀ PHÊ MÙI</h3>
+      <p class="content-text font-16">Cà phê mùi bắt nguồn từ đam mê sáng tạo ra những hương vị mới lạ cho việc thưởng
+        thức cà phê ngày càng đa dạng và phong phú hơn. <br><br>
+        Lấy cảm hứng từ hương vị tự nhiên chiết xuất từ các loài thực vật thiên nhiên hòa quyện cùng những hạt cà phê
+        thơm ngon của vùng đất Buôn Mê Thuột, cà phê mùi mang đến 6 hương vị mới lạ như hương Vanilla, Hazelnut,
+        Chocolate, Cappuccino, Caramel, Smooth và Rich.
+      </p>
+      <div class="cafe-mui-list row g-4">
+      </div>
+    </div>
+    <div class="content-cafe text-center">
+      <h3 class="content-title font-28">CÀ PHÊ PHIN NHÔM</h3>
+      <p class="content-text font-16">Những dòng cà phê hảo hạng, đặc trưng của Phúc Long đi kèm với fin nhôm tiện
+        lợi, giúp cho người thưởng thức trải nghiệm trọn vẹn hương vị thơm ngon, đậm đà của những giọt cà phê khi tự
+        tay pha chế ngay tại nhà.</p>
+      <div class="cafe-phin-nhom-list row"></div>
+    </div>
+  </div>
+  <div class="tea-page">
+    <img src="https://phuclong.com.vn/uploads/category/2d56c4bfb9002e-trtilcphclong1.jpg" alt="">
+    <div class="nav-way">
+      <a href="http://127.0.0.1:5500/">Trang chủ</a>
+      / <a href="">Sản phẩm</a>
+      / <a href="#">Trà</a>
+    </div>
+    <div class="nav-filter row g-2">
+      <div class="with-price filter-item col-lg-6 row font-sw">
+        Theo giá
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Không lựa chọn</option>
+          <option value="1">Không lựa chọn</option>
+          <option value="2">Từ thấp đến cao</option>
+          <option value="3">Từ cao đến thấp</option>
+        </select>
+      </div>
+      <div class="with-search filter-item col-lg-6 row font-sw">
+        Tìm kiếm
+        <div class="input-group flex-nowrap">
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            aria-describedby="addon-wrapping">
+          <span class="input-group-text" id="addon-wrapping"><span class="material-icons-outlined">
+              search</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="content-tea text-center">
+      <h3 class="content-title font-28">TRÀ Ô LONG THƯỢNG HẠNG</h3>
+      <p class="content-text font-16">Trà Ô Long Thượng Hạng Phúc Long được tạo nên từ những búp trà non thượng hạng, trải qua quá trình thu hái lá trà cho đến sao chế đều tuân thủ những nguyên tắc nghiêm ngặt. <br><br>
+        Cầm trên tay tách trà ngát hương, nhâm nhi trọn vị Trà Ô Long tinh tuý như là một cách thể hiện tâm tình đối với cuộc sống, cảm thụ hương vị tự nhiên toát ra từ lá trà, cảm thấy lòng an nhiên trước bao bộn bề.
+      </p>
+      <div class="tra-olong-list row g-4">
+      </div>
+    </div>
+    <div class="content-tea text-center">
+      <h3 class="content-title font-28">TRÀ LON THIẾC</h3>
+      <p class="content-text font-16">Với thiết kế bao bì chắc chắn nhưng gọn nhẹ, trà lon thiếc không chỉ lưu giữ được hương vị tươi ngon của trà mà còn gửi gắm những giá trị truyền thống của văn hóa thưởng trà để gắn kết tình thân.</p>
+      <div class="tra-lon-thiec-list row"></div>
+    </div>
+    <div class="content-tea text-center">
+      <h3 class="content-title font-28">TRÀ LON GIẤY CAO CẤP</h3>
+      <p class="content-text font-16">Trà lon giấy cao cấp tinh tế từ khâu lựa chọn trà, ướp hương và đóng gói. Khi được sử dụng làm quà biếu sẽ thể hiện trọn vẹn tấm chân tình của người tặng. Vị ngọt dịu cùng hương thơm đặc trưng đánh thức mọi giác quan và mang lại những phút giây thư giãn tuyệt vời.</p>
+      <div class="tra-lon-giay-list row"></div>
+    </div>
+  </div>
+  <div class="cafe-info">
+    <div class="load-here">
+    </div>
+  </div>
+  <div class="tea-info">
+    <div class="load-here">
+    </div>
+  </div>
+  <div class="container-product-relate">
+    <div class="product-relate row g-4">
+    </div>
+  </div>
+
+  <div class="copy-right font-12">© 2017 Bản quyền Phuc Long Co., Ltd</div>
+  <!-- fixed btn -->
+  <div class="fixed-element">
+    <a class="message-icon font-28 rounded-circle">
+      <i class="ti-comments"></i>
+    </a>
+    <div class="call-now rounded-pill">
+      <a href="" class="rounded-circle">
+        <span class="material-icons-outlined">phone_forwarded</span>
+      </a>
+      <p>
+        HOTLINE: 1800 6779
+      </p>
+    </div>
+    <div class="nhapnhay rounded-pill"></div>
+    <div class="vongngoai rounded-pill"></div>
+
+    <div class="notify-time">
+      <div class="notify-page">
+        <div class="notify-text pb-3">Đã hết thời gian đặt hàng, xin quý khách vui lòng quay lại vào ngày mai. Chúng
+          tôi nhận đặt hàng từ 8:00 - 18:00 từ thứ 2 đến Chủ nhật hàng tuần. Xin lỗi vì sự bất tiện này. Cảm ơn quý
+          khách!</div>
+        <button type="button" class="btn btn-ok btn-danger">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <script src="./assets/script/main.js"></script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

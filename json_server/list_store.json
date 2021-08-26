@@ -1,0 +1,244 @@
+{
+  "listCart": [
+    {
+      "productId": 13,
+      "quantity": 1,
+      "price": 415,
+      "id": 3
+    },
+    {
+      "productId": 16,
+      "quantity": 1,
+      "price": 70,
+      "id": 4
+    }
+  ],
+  "listStore": [
+    {
+      "id": 1,
+      "local": "hcm",
+      "district": "q1",
+      "name": "Phúc Long Bitexco",
+      "address": "Lầu 4, Khu vực ẩm thực Food Creative, Tòa nhà Bitexco, số 2 Hải Triều, quận 1, Hồ Chí Minh",
+      "phone": "028 39 153 333",
+      "url": "https://www.google.com/maps/place/Phuc+Long+Coffee+%26+Tea/@10.7719892,106.7022025,17z/data=!3m1!4b1!4m5!3m4!1s0x31752f4148155555:0x590f969c98f0e0ab!8m2!3d10.7719839!4d106.7043912"
+    },
+    {
+      "id": 2,
+      "local": "hcm",
+      "district": "q1",
+      "name": "Phúc Long Takashimaya",
+      "address": "B2-217, TTTM Takashimaya, số 92-94 Nam Kỳ Khởi Nghĩa, quận 1, Hồ Chí Minh",
+      "phone": "028 38 228 333",
+      "url": "https://www.google.com/maps/place/Phuc+Long+Coffee+%26+Tea/@10.7731874,106.6987313,17z/data=!3m1!4b1!4m5!3m4!1s0x31752f55092bd747:0xa8bcedebad12677b!8m2!3d10.7731874!4d106.70092?hl=en-AU"
+    },
+    {
+      "id": 3,
+      "local": "hcm",
+      "district": "q1",
+      "name": "Phúc Long Nowzone",
+      "address": "TTTM Nowzone, số 235 Nguyễn Văn Cừ, quận 1, Hồ Chí Minh",
+      "phone": "028 39 262 222",
+      "url": "https://www.google.com/maps/place/Phuc+Long+Coffee+%26+Tea+Express/@10.7642895,106.6800805,17z/data=!3m1!4b1!4m5!3m4!1s0x31752f194baf891f:0x622fc38bcad7d495!8m2!3d10.7642842!4d106.6822692"
+    },
+    {
+      "id": 4,
+      "local": "hcm",
+      "district": "q1",
+      "name": "Phúc Long Nguyễn Thị Minh Khai",
+      "address": "L1-01, Tòa nhà Somerset Chancellor Court, số 21-23 Nguyễn Thị Minh Khai, quận 1, Hồ Chí Minh",
+      "phone": "028 38 297 777",
+      "url": "https://www.google.com/maps/place/Phuc+Long+Coffee+%26+Tea+Express/@10.7839798,106.6975262,17z/data=!3m1!4b1!4m5!3m4!1s0x31752f35f7724643:0xe9af612122394169!8m2!3d10.7839745!4d106.6997149"
+    },
+    {
+      "id": 5,
+      "local": "hcm",
+      "district": "q3",
+      "name": "Phúc Long Lê Văn Sỹ",
+      "address": "350 Lê Văn Sỹ, quận 3, Hồ Chí Minh",
+      "phone": "028 39 311 048",
+      "url": "https://www.google.com/maps/place/Ph%C3%BAc+Long+Coffee+%26+Tea+L%C3%AA+V%C4%83n+S%E1%BB%B9/@10.7875193,106.6766423,17z/data=!3m1!4b1!4m5!3m4!1s0x31752fefa3cab5c5:0x4bef4e0fe94b542!8m2!3d10.787514!4d106.678831"
+    },
+    {
+      "id": 6,
+      "local": "hcm",
+      "district": "q3",
+      "name": "Phúc Long RomeA",
+      "address": "B-004A, TTTM RomeA, số 117 Nguyễn Đình Chiểu, quận 3, Hồ Chí Minh",
+      "phone": "028 39 303 333",
+      "url": "https://www.google.com/maps/place/Phuc+Long+Coffee+%26+Tea/@10.7840479,106.6909601,15z/data=!4m8!1m2!2m1!1zUGjDumMgTG9uZyBuZ3V54buFbiDEkWluaA!3m4!1s0x31752ffe5d030fe9:0x24b2df0a79b6dd1f!8m2!3d10.7778832!4d106.6899432"
+    },
+    {
+      "id": 7,
+      "local": "ct",
+      "district": "qnk",
+      "name": "Phúc Long Cần Thơ",
+      "address": "384 Đường 30 tháng 4, phường Hưng Lợi, quận Ninh Kiều, Cần Thơ",
+      "phone": "0292 378 2555",
+      "url": "https://www.google.com/maps/place/Phuc+Long+coffee+%26+Tea/@10.0216315,105.768109,17z/data=!3m1!4b1!4m5!3m4!1s0x31a089bb88b20641:0xf542c24683b038a7!8m2!3d10.0216315!4d105.7702977?hl=vi-VN"
+    },
+    {
+      "id": 8,
+      "local": "ct",
+      "district": "qnk",
+      "name": "Phúc Long Vincom Cần Thơ",
+      "address": "Phúc Long Vincom Cần Thơ - 2 Hùng Vương, phường Thới Bình, quận Ninh Kiều, Cần Thơ",
+      "phone": "0292 384 4444",
+      "url": "https://www.google.com/maps/place/Phuc+Long+Coffee+%26+Tea+Vincom+H%C3%B9ng+V%C6%B0%C6%A1ng+C%E1%BA%A7n+Th%C6%A1/@10.0290871,105.7477529,14z/data=!4m8!1m2!2m1!1zcGh1YyBsb25nIGPhuqduIHRoxqE!3m4!1s0x31a089e5e530f075:0x4828b931ca6ea719!8m2!3d10.0454948!4d105.7794857"
+    }
+  ],
+  "listProduct": [
+    {
+      "id": 0,
+      "type": "list_1",
+      "name": "Vanilla",
+      "weight": 200,
+      "price": 74,
+      "img": "./assets/image/product/cafe_1/vanilla.png"
+    },
+    {
+      "id": 1,
+      "type": "list_1",
+      "name": "Rich",
+      "weight": 200,
+      "price": 105,
+      "img": "./assets/image/product/cafe_1/rich.png"
+    },
+    {
+      "id": 2,
+      "type": "list_1",
+      "name": "Smooth",
+      "weight": 200,
+      "price": 97,
+      "img": "./assets/image/product/cafe_1/smooth.png"
+    },
+    {
+      "id": 3,
+      "type": "list_1",
+      "name": "Caramel",
+      "weight": 200,
+      "price": 74,
+      "img": "./assets/image/product/cafe_1/caramel.png"
+    },
+    {
+      "id": 4,
+      "type": "list_1",
+      "name": "Capuccino",
+      "weight": 200,
+      "price": 74,
+      "img": "./assets/image/product/cafe_1/capuccino.png"
+    },
+    {
+      "id": 5,
+      "type": "list_1",
+      "name": "Chocolate",
+      "weight": 200,
+      "price": 74,
+      "img": "./assets/image/product/cafe_1/chocolate.png"
+    },
+    {
+      "id": 6,
+      "type": "list_1",
+      "name": "Hazelnut",
+      "weight": 200,
+      "price": 74,
+      "img": "./assets/image/product/cafe_1/hazelnut.png"
+    },
+    {
+      "id": 7,
+      "type": "list_2",
+      "name": "King + Fin Nhôm",
+      "weight": 200,
+      "price": 107,
+      "img": "./assets/image/product/cafe_2/king.png"
+    },
+    {
+      "id": 8,
+      "type": "list_2",
+      "name": "Robusta + Fin Nhôm",
+      "weight": 200,
+      "price": 87,
+      "img": "./assets/image/product/cafe_2/robusta.png"
+    },
+    {
+      "id": 9,
+      "type": "list_2",
+      "name": "Moka Blend + Fin Nhôm",
+      "weight": 200,
+      "price": 93,
+      "img": "./assets/image/product/cafe_2/moka_blend.png"
+    },
+    {
+      "id": 10,
+      "type": "list_2",
+      "name": "Moka + Fin Nhôm",
+      "weight": 200,
+      "price": 116,
+      "img": "./assets/image/product/cafe_2/moka.png"
+    },
+    {
+      "id": 11,
+      "type": "list_2",
+      "name": "Royal Special + Fin Nhôm",
+      "weight": 200,
+      "price": 103,
+      "img": "./assets/image/product/cafe_2/royal_special.png"
+    },
+    {
+      "id": 12,
+      "type": "list_3",
+      "name": "Ô Lông Thượng Hạng",
+      "weight": 80,
+      "price": 350,
+      "img": "./assets/image/product/tea_1/olong_1.png"
+    },
+    {
+      "id": 13,
+      "type": "list_3",
+      "name": "Ô Lông Thượng Hạng",
+      "weight": 96,
+      "price": 415,
+      "img": "./assets/image/product/tea_1/olong_2.png"
+    },
+    {
+      "id": 14,
+      "type": "list_4",
+      "name": "Ô Lông 80",
+      "weight": 180,
+      "price": 305,
+      "img": "./assets/image/product/tea_2/olong_80.png"
+    },
+    {
+      "id": 15,
+      "type": "list_5",
+      "name": "Ô Xanh Đặc Biệt (Mẫu Lá Tre)",
+      "weight": 100,
+      "price": 229,
+      "img": "./assets/image/product/tea_3/xanh ĐB.png"
+    },
+    {
+      "id": 16,
+      "type": "list_5",
+      "name": "Ô Lài Lon Giấy Cao cấp",
+      "weight": 100,
+      "price": 70,
+      "img": "./assets/image/product/tea_3/lailon.png"
+    },
+    {
+      "id": 17,
+      "type": "list_5",
+      "name": "Ô Sen Lon Giấy Cao cấp",
+      "weight": 100,
+      "price": 70,
+      "img": "./assets/image/product/tea_3/senlon.png"
+    },
+    {
+      "id": 18,
+      "type": "list_5",
+      "name": "Ô Xanh Lon Giấy Cao cấp",
+      "weight": 100,
+      "price": 70,
+      "img": "./assets/image/product/tea_3/xanhlon.png"
+    }
+  ]
+}
